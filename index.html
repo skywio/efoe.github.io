@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Efoe Sossou - Python Developer</title>
+    
+    <!-- SEO Meta Tags -->
     <meta name="description" content="Portfolio de Efoe Sossou, développeur Python senior spécialisé en data, web et cloud. Découvrez ses compétences, expériences et contactez-le pour vos projets.">
+    <meta name="keywords" content="Python Developer, Django, FastAPI, AWS, Azure, Data Engineering, Machine Learning, Paris, France">
+    <meta name="author" content="Efoe Sossou">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Efoe Sossou - Senior Python Developer">
+    <meta property="og:description" content="10+ years of expertise in Web Development, Data Engineering, and Machine Learning">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://efoesossou.com">
+    
+    <!-- Google Analytics 4 - Replace GA_MEASUREMENT_ID with your actual ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9THEN01TG7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-9THEN01TG7');
+    </script>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -611,7 +630,6 @@
             // Create mobile menu button
             const mobileMenuBtn = document.createElement('button');
             mobileMenuBtn.className = 'mobile-menu-btn';
-            mobileMenuBtn.setAttribute('aria-label', 'Ouvrir le menu mobile');
             mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
             mobileMenuBtn.style.cssText = `
                 display: none;
